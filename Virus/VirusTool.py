@@ -2,8 +2,6 @@ class VT:
     def __init__(self,name):
         self.name = name
         pass 
-    def __str__(self):
-        return f"{self.name}"
     def change(self,Text):
         File = f"{self.name}"
         f = open(File, 'w')
